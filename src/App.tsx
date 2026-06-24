@@ -15,7 +15,7 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden bg-neutral-900">
       <video
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
